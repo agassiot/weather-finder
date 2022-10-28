@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+
+
+<body>
+  <section class="hero is-small is-info is-bold m-1">
+    <div>
+      <h2 class="title column is-size-2 is-3 is-offset-7"> Weather Dashboard </h2>
+    </div>
+  </section>
+  <main>
+    <div class="columns">
+<div class="column is-4">
+        <form class="box is-dark">
+          <div class="field">
+            <label class="label">Search for a city:</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="e.g. Dallas">
+            </div>
+          </div>
+          <div class="field">
+            <p class="control"> 
+             <button class="button is-link">
+              search
+             </button>
+            </p>
+          </div>
+        </form>
+        <button class="button is-fullwidth  mr-6 pr-6 ml-2 has-background-grey has-text-weight-semibold"> Cincinatti </button>
+   </div>
+<div class="column is-8">
+    <div class="box has-background-black mr-6 p-2">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title is-size-3">
+          City Name (date)
+        </p>
+      </header>
+      <div class="card-content">
+        <p class="content">Temp:</p>
+        <p class="content">Wind:</p>
+        <p class="content">Humidity:</p>
+      </div>
+    </div>
+    </div>
+<section class="section is-small has-text-left pt-2 pl-4">
+  <h3 class="title has-text-weight-bold is-size-4"> 5-Day Forecast </h3>
+</section>
+     
+<!------     forecast cards       ------>
+<div class="tile is-ancestor mr-2">
+  <div class="tile is-2 mx-2">
+   <div class="card has-background-info-dark has-text-light mx-1">
+       <ul class="card-content has-text-left pl-1 py-1">
+       <li class="py-3"> (Date) </li>
+       <li class="py-3"> (icon) </li>
+       <li class="py-3"> Temp: </li>
+       <li class="py-3"> Wind: </li>
+       <li class="py-3"> Humidity: numbers </li>
+       </ul>
+    </div> 
+  </div>
+
+  <div class="tile is-2 mx-2">
+    <div class="card has-background-info-dark has-text-light mx-1">
+    <ul class="card-content has-text-left pl-1 py-1">
+      <li class="py-3"> (Date) </li>
+      <li class="py-3"> (icon) </li>
+      <li class="py-3"> Temp: </li>
+      <li class="py-3"> Wind: </li>
+      <li class="py-3"> Humidity: numbers </li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="tile is-2 mx-2">
+   <div class="card has-background-info-dark has-text-light mx-1">
+    <ul class="card-content has-text-left pl-1 py-1">
+      <li class="py-3"> (Date) </li>
+       <li class="py-3"> (icon) </li>
+       <li class="py-3"> Temp: </li>
+       <li class="py-3"> Wind: </li>
+       <li class="py-3"> Humidity: numbers </li>
+    </ul>
+  </div>
+ </div>
+
+  <div class="tile is-2 mx-2">
+  <div class="card has-background-info-dark has-text-light mx-1">
+    <ul class="card-content has-text-left pl-1 py-1">
+       <li class="py-3"> (Date) </li>
+       <li class="py-3"> (icon) </li>
+       <li class="py-3"> Temp: </li>
+       <li class="py-3"> Wind: </li>
+       <li class="py-3"> Humidity: numbers </li>
+    </ul>
+ </div>
+ </div>
+
+ <div class="tile is-2 mx-2">
+  <div class="card has-background-info-dark has-text-light mx-1">
+    <ul class="card-content has-text-left pl-1 py-1">
+       <li class="py-3"> (Date) </li>
+       <li class="py-3"> (icon) </li>
+       <li class="py-3"> Temp: </li>
+       <li class="py-3"> Wind: </li>
+       <li class="py-3"> Humidity: numbers </li>
+    </ul>
+  </div>
+ </div>
+
+
+  
+
+</div>
+</div>
+</div>
+ </div> 
+  
+
+  </main>
+
+<!-- column 1/4   --> 
+    <!-- mediumSection: search bar-->    
+    <!--  small secionts: search hist from storage     -->
+<!-- column 3/4   -->
+    <!-- mediumSection weather display   -->
+    <!--  smallSection: "5-day forecast"     -->
+    <!-- largeSection display forecast cards   -->
+        <!--  5 columns  -->
+    
+
+
+ 
+  </body>
+</html>
