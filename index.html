@@ -17,11 +17,11 @@
   <main>
     <div class="columns">
 <div class="column is-4">
-        <form class="box is-dark">
+        <form id="search-form" class="box is-dark">
           <div class="field">
             <label class="label">Search for a city:</label>
             <div class="control">
-              <input class="input" type="text" placeholder="e.g. Dallas">
+              <input id="search-bar" class="input" type="text" placeholder="e.g. Dallas">
             </div>
           </div>
           <div class="field">
@@ -32,20 +32,21 @@
             </p>
           </div>
         </form>
-        <button class="button is-fullwidth  mr-6 pr-6 ml-2 has-background-grey has-text-weight-semibold"> Cincinatti </button>
+       <article id="btns">
+        </article>
    </div>
 <div class="column is-8">
     <div class="box has-background-black mr-6 p-2">
     <div class="card">
       <header class="card-header">
         <p class="card-header-title is-size-3">
-          City Name (date)
+          <span id="city"></span> (<span id="date-0"></span>) <img id="icon-0" src=""> 
         </p>
       </header>
       <div class="card-content">
-        <p class="content">Temp:</p>
-        <p class="content">Wind:</p>
-        <p class="content">Humidity:</p>
+        <p class="content">Temp: <span id="temp-0"></span>° </p>      
+        <p class="content">Wind: <span id="wind-0"></span> &nbsp m.p.h. </p>
+        <p class="content">Humidity: <span id="humid-0"></span>% </p>
       </div>
     </div>
     </div>
@@ -58,11 +59,11 @@
   <div class="tile is-2 mx-2">
    <div class="card has-background-info-dark has-text-light mx-1">
        <ul class="card-content has-text-left pl-1 py-1">
-       <li class="py-3"> (Date) </li>
-       <li class="py-3"> (icon) </li>
-       <li class="py-3"> Temp: </li>
-       <li class="py-3"> Wind: </li>
-       <li class="py-3"> Humidity: numbers </li>
+       <li id="date-1" class="py-3"> </li>
+       <li class="py-3"> <img id="icon-1" src=""> </li>
+       <li class="py-3"> Temp: <span id="temp-1"></span>° </li>
+       <li class="py-3"> Wind: <span id="wind-1"></span> &nbsp m.p.h. </li>
+       <li class="py-3"> Humidity: <span id="humid-1"></span>%  </li>
        </ul>
     </div> 
   </div>
@@ -70,11 +71,11 @@
   <div class="tile is-2 mx-2">
     <div class="card has-background-info-dark has-text-light mx-1">
     <ul class="card-content has-text-left pl-1 py-1">
-      <li class="py-3"> (Date) </li>
-      <li class="py-3"> (icon) </li>
-      <li class="py-3"> Temp: </li>
-      <li class="py-3"> Wind: </li>
-      <li class="py-3"> Humidity: numbers </li>
+      <li id="date-2" class="py-3"> </li>
+      <li class="py-3"> <img "icon-1" id="icon-2" src=""> </li>
+      <li class="py-3"> Temp: <span id="temp-2"></span>° </li>
+      <li class="py-3"> Wind: <span id="wind-2"></span>  &nbsp m.p.h. </li>
+      <li class="py-3"> Humidity: <span id="humid-2"></span>% </li>
     </ul>
    </div>
   </div>
@@ -82,11 +83,11 @@
   <div class="tile is-2 mx-2">
    <div class="card has-background-info-dark has-text-light mx-1">
     <ul class="card-content has-text-left pl-1 py-1">
-      <li class="py-3"> (Date) </li>
-       <li class="py-3"> (icon) </li>
-       <li class="py-3"> Temp: </li>
-       <li class="py-3"> Wind: </li>
-       <li class="py-3"> Humidity: numbers </li>
+      <li id="date-3" class="py-3"> </li>
+       <li class="py-3"> <img id="icon-3" src=""> </li>
+       <li class="py-3"> Temp:  <span id="temp-3"></span>° </li>
+       <li class="py-3"> Wind:  <span id="wind-3"></span>  &nbsp m.p.h. </li>
+       <li class="py-3"> Humidity: <span id="humid-3"></span>% </li>
     </ul>
   </div>
  </div>
@@ -94,11 +95,11 @@
   <div class="tile is-2 mx-2">
   <div class="card has-background-info-dark has-text-light mx-1">
     <ul class="card-content has-text-left pl-1 py-1">
-       <li class="py-3"> (Date) </li>
-       <li class="py-3"> (icon) </li>
-       <li class="py-3"> Temp: </li>
-       <li class="py-3"> Wind: </li>
-       <li class="py-3"> Humidity: numbers </li>
+       <li id="date-4" class="py-3"> </li>
+       <li class="py-3"> <img id="icon-4" src=""> </li>
+       <li class="py-3"> Temp:  <span id="temp-4"></span>° </li>
+       <li class="py-3"> Wind:  <span id="wind-4"></span>  &nbsp m.p.h. </li>
+       <li class="py-3"> Humidity:  <span id="humid-4"></span>% </li>
     </ul>
  </div>
  </div>
@@ -106,11 +107,11 @@
  <div class="tile is-2 mx-2">
   <div class="card has-background-info-dark has-text-light mx-1">
     <ul class="card-content has-text-left pl-1 py-1">
-       <li class="py-3"> (Date) </li>
-       <li class="py-3"> (icon) </li>
-       <li class="py-3"> Temp: </li>
-       <li class="py-3"> Wind: </li>
-       <li class="py-3"> Humidity: numbers </li>
+       <li id="date-5" class="py-3"> </li>
+       <li class="py-3"> <img id="icon-5" src=""> </li>
+       <li class="py-3"> Temp:  <span id="temp-5"></span>° </li>
+       <li class="py-3"> Wind:  <span id="wind-5"></span>  &nbsp m.p.h. </li>
+       <li class="py-3"> Humidity:  <span id="humid-5"></span>% </li>
     </ul>
   </div>
  </div>
@@ -120,23 +121,12 @@
 
 </div>
 </div>
-</div>
- </div> 
-  
-
   </main>
 
-<!-- column 1/4   --> 
-    <!-- mediumSection: search bar-->    
-    <!--  small secionts: search hist from storage     -->
-<!-- column 3/4   -->
-    <!-- mediumSection weather display   -->
-    <!--  smallSection: "5-day forecast"     -->
-    <!-- largeSection display forecast cards   -->
-        <!--  5 columns  -->
+
     
 
 
- 
+    <script src="./assets/scripts.js"></script>
   </body>
 </html>
