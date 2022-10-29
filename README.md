@@ -10,9 +10,14 @@
             this site is designed to help encourage weather preparedness
             ### Credits
             a ∆ix solo project
-            ### License
+            
             'Weather data provided by OpenWeather’   https://openweathermap.org/
-            ![OpenWeather-Master-Logo RGB](https://user-images.githubusercontent.com/61921580/198793286-214998c6-6eb2-4514-b5f2-1d726922a158.png)
+            ![OpenWeather Master Logo CMYK](https://user-images.githubusercontent.com/61921580/198797442-8687ea87-5889-4458-a282-b0879ee8d0a9.jpg)
+
+            
+            ### License
+            
+            
 
             
             ### Features
