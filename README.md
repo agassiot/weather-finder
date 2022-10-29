@@ -12,13 +12,13 @@
             a ∆ix solo project
             
             'Weather data provided by OpenWeather’   https://openweathermap.org/
-            ![OpenWeather Master Logo CMYK](https://user-images.githubusercontent.com/61921580/198797442-8687ea87-5889-4458-a282-b0879ee8d0a9.jpg)
+            ![OpenWeather-Master-Logo RGB](https://user-images.githubusercontent.com/61921580/198799791-2ef8cd5d-ca0a-467c-9bb2-c3b0e1542060.jpg)
 
+          
             
             ### License
             
-            
-
+            [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
             
             ### Features
             click an item in your search history to re-fetch up-to-date weather info
