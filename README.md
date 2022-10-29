@@ -11,7 +11,9 @@
             ### Credits
             a ∆ix solo project
             ### License
-            
+            'Weather data provided by OpenWeather’   https://openweathermap.org/
+            ![OpenWeather-Master-Logo RGB](https://user-images.githubusercontent.com/61921580/198793286-214998c6-6eb2-4514-b5f2-1d726922a158.png)
+
             
             ### Features
             click an item in your search history to re-fetch up-to-date weather info
