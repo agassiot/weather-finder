@@ -20,4 +20,7 @@
             ### Links
             Github Page github.com/agassiot
             Github Repository github.com/agassiot/weather-finder
-            Live Link agassiot.github.io/weather-finder<img width="1920" alt="weather-finder-demo" src="https://user-images.githubusercontent.com/61921580/198792029-ca1e4120-3f5b-4077-82bb-9dd91c241d35.png">
+            Live Link agassiot.github.io/weather-finder
+            
+            
+<img width="1920" alt="weather-finder-demo" src="https://user-images.githubusercontent.com/61921580/198792562-819aeda3-ea31-47ae-acbf-c11e92978481.png">
