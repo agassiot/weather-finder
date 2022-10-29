@@ -17,14 +17,14 @@ formL.addEventListener('submit',formHandler);
 historyL.addEventListener('click',historyHandler);
 
  function apiCall(url) {
-     fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${url}&${apiKey}`).then(function(resp){
+     fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${url}&${apiKey}`).then(function(resp){
 
     return resp.json()
 }).then(function(json){
         console.log(json,' --first api call');
         let lat = json[0].lat;
         let long = json[0].lon;
-       fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&${apiKey}&units=imperial`).then(function(newResp){
+       fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&${apiKey}&units=imperial`).then(function(newResp){
         return newResp.json()
     }).then(function(newJson){
         let temp = newJson.list.slice(0,6)
