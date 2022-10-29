@@ -11,7 +11,8 @@
             ### Credits
             a ∆ix solo project
             ### License
-            [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+            
+            
             ### Features
             click an item in your search history to re-fetch up-to-date weather info
             #### Struggles
@@ -19,4 +20,4 @@
             ### Links
             Github Page github.com/agassiot
             Github Repository github.com/agassiot/weather-finder
-            Live Link agassiot.github.io/weather-finder
+            Live Link agassiot.github.io/weather-finder<img width="1920" alt="weather-finder-demo" src="https://user-images.githubusercontent.com/61921580/198792029-ca1e4120-3f5b-4077-82bb-9dd91c241d35.png">
